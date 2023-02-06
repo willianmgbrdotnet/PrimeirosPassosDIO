@@ -7,6 +7,7 @@ namespace PrimeirosPassos
         public static void Main(string[] args)
         {    
            Aluno[] alunos = new Aluno[5];
+           var indiceAluno = 0;
          
             string opcaoUsuario = ObterOpcaoUsuario();
 
@@ -29,9 +30,15 @@ namespace PrimeirosPassos
                         {
                             throw new ArgumentException("Por favor, digite um valor decimal para a nota");
                         }
+                        alunos[indiceAluno] = aluno;
+                        indiceAluno ++;
+
                         break;
                     case "2":
-                        //listar alunos
+                        foreach(var posicaoNoArrayAlunos in alunos)
+                        {
+                            System.Console.WriteLine("O Aluno: {0} obteve a Nota: {1}.", posicaoNoArrayAlunos.Nome, posicaoNoArrayAlunos.Nota);
+                        }
                         break;
                     case "3":
                         //calcular media geral
