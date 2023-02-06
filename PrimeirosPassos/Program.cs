@@ -45,11 +45,29 @@ namespace PrimeirosPassos
                         }
                         break;
                     case "3":
-                        //calcular media geral
+                        decimal notaTotal = 0;
+                        var quantidadeAlunos = 0;
+
+                        for(int i = 0; i < alunos.Length; i++)
+                        {
+                            //Se o nome na posicao do array aluno nao for nulo ou vazio, 
+                            //a nota do aluno no array sera somada a nota total.
+                            if(!string.IsNullOrEmpty(alunos[i].Nome))
+                            {
+                                notaTotal = notaTotal + alunos[i].Nota;
+                                quantidadeAlunos++;
+                            }
+                        }
+                        //Calculo da Media fora do "for"
+                        //Dentro do "for", apenas a soma das notas
+                        var mediaGeral = notaTotal / quantidadeAlunos;
+                        System.Console.WriteLine("Media Geral: {0}", mediaGeral);
+
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
                 }
+                System.Console.WriteLine();
 
                 opcaoUsuario = ObterOpcaoUsuario();
             }
