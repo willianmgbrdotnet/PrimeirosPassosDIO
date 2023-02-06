@@ -61,7 +61,30 @@ namespace PrimeirosPassos
                         //Calculo da Media fora do "for"
                         //Dentro do "for", apenas a soma das notas
                         var mediaGeral = notaTotal / quantidadeAlunos;
-                        System.Console.WriteLine("Media Geral: {0}", mediaGeral);
+                        //Implementacao de Enum
+                        EConceito conceitoGeral;
+                        
+                        if(mediaGeral <= 2)
+                        {
+                            conceitoGeral = EConceito.E;
+                        }
+                        else if(mediaGeral <= 4)
+                        {
+                            conceitoGeral = EConceito.D;
+                        }
+                        else if(mediaGeral <= 6)
+                        {
+                            conceitoGeral = EConceito.C;
+                        }
+                        else if(mediaGeral <= 8)
+                        {
+                            conceitoGeral = EConceito.B;
+                        }
+                        else
+                        {
+                            conceitoGeral = EConceito.A;
+                        }
+                        Console.WriteLine("Media Geral: {0} e Conceito: {1}", mediaGeral, conceitoGeral);
 
                         break;
                     default:
