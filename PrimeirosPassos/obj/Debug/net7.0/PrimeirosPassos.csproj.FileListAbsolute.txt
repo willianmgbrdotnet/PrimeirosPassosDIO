@@ -1,0 +1,15 @@
+C:\PrimeirosPassosDIO\PrimeirosPassos\obj\Debug\net7.0\PrimeirosPassos.csproj.AssemblyReference.cache
+C:\PrimeirosPassosDIO\PrimeirosPassos\obj\Debug\net7.0\PrimeirosPassos.GeneratedMSBuildEditorConfig.editorconfig
+C:\PrimeirosPassosDIO\PrimeirosPassos\obj\Debug\net7.0\PrimeirosPassos.AssemblyInfoInputs.cache
+C:\PrimeirosPassosDIO\PrimeirosPassos\obj\Debug\net7.0\PrimeirosPassos.AssemblyInfo.cs
+C:\PrimeirosPassosDIO\PrimeirosPassos\obj\Debug\net7.0\PrimeirosPassos.csproj.CoreCompileInputs.cache
+C:\PrimeirosPassosDIO\PrimeirosPassos\bin\Debug\net7.0\PrimeirosPassos.exe
+C:\PrimeirosPassosDIO\PrimeirosPassos\bin\Debug\net7.0\PrimeirosPassos.deps.json
+C:\PrimeirosPassosDIO\PrimeirosPassos\bin\Debug\net7.0\PrimeirosPassos.runtimeconfig.json
+C:\PrimeirosPassosDIO\PrimeirosPassos\bin\Debug\net7.0\PrimeirosPassos.dll
+C:\PrimeirosPassosDIO\PrimeirosPassos\bin\Debug\net7.0\PrimeirosPassos.pdb
+C:\PrimeirosPassosDIO\PrimeirosPassos\obj\Debug\net7.0\PrimeirosPassos.dll
+C:\PrimeirosPassosDIO\PrimeirosPassos\obj\Debug\net7.0\refint\PrimeirosPassos.dll
+C:\PrimeirosPassosDIO\PrimeirosPassos\obj\Debug\net7.0\PrimeirosPassos.pdb
+C:\PrimeirosPassosDIO\PrimeirosPassos\obj\Debug\net7.0\PrimeirosPassos.genruntimeconfig.cache
+C:\PrimeirosPassosDIO\PrimeirosPassos\obj\Debug\net7.0\ref\PrimeirosPassos.dll
