@@ -37,8 +37,8 @@ namespace PrimeirosPassos
                     case "2":
                         foreach(var posicaoNoArrayAlunos in alunos)
                         {
-                            //Formula para eliminar campos nulos
-                            if(!posicaoNoArrayAlunos.Nome.Equals(""))
+                            //Formula melhorada para eliminar campos nulos
+                            if(!string.IsNullOrEmpty(posicaoNoArrayAlunos.Nome))
                                 {
                                 System.Console.WriteLine("O Aluno: {0} obteve a Nota: {1}.", posicaoNoArrayAlunos.Nome, posicaoNoArrayAlunos.Nota);
                                 }
